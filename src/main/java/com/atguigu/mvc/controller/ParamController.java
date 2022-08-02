@@ -50,6 +50,8 @@ public class ParamController {
     public String testBean(User user){
         System.out.println(user);
         System.out.println("2");
+        System.out.println("4");
+
         return "success";
 
     }
