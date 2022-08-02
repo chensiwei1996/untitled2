@@ -49,7 +49,9 @@ public class ParamController {
     @RequestMapping("/testBean")
     public String testBean(User user){
         System.out.println(user);
+        System.out.println("2");
         return "success";
+
     }
 
 
